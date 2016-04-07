@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">AYOUB</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqpkkbTvKoUWxpDQ060A9bQAAAAACAAAAAAAQZgAAAAEAACAAAAA5NkQPkLvkthXl/7H9vHuxJnqCjoMoBUxRN4AWZQrhTAAAAAAOgAAAAAIAACAAAAAXMidoT/SDT5Mo8+KBtFnByuYRW/fS/C4Jl+MF2QZFC5AAAABrSE0meE+HkXrZtfWyc7203f5/714FtTmY04CprqRcm7dFvSa9Bz3O4pmaSlaKfE0Lu76gF76mNi5YpUCiDPBzvlrIS9pGRHluWim2JnURsvcQyPvsqvax9orHbirdZzpZ+M5wo54GXqvKtohKZQDzcIv9JwsinX3GYpdSQmC4dTegRdkdqIrc5bebVFcQyzxAAAAAwX2V6kdEfj/WREOnGmLR+aZj9YCm4tiEqucZxq36iZFsDNapmYzfaRg6Kil9ekSCAqtiIhzsVGb7ugCZ9i2zpw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHWrZuxq+OU+CRzQvTtJCYQAAAAACAAAAAAAQZgAAAAEAACAAAAB5qdsXqbRGs2WJXlKhEt2mn7yAhBoIoLMz+Uvjw9qiWgAAAAAOgAAAAAIAACAAAAAOMxJWzn8PKF6OaV41j+gZmt1UkbswLhB1OekHgU1yz5AAAAAmV8QmZE/wLVIGKUgtgnMlLq40UwXqSlOzm/ZrA/XIuKocLY+/R6N2k7xd3z2zuxJ5Uk090AvhB0MAFuK7bkpDSdXPW+jNOpqIqCKp48OjyW6gDmHUe7klQLl909sQgNDtrXvFRbUYyTNo6ZhS/RMWgnQVv2OAz9i054kpQhiOEykCTo59ZoF5N2/LU22bPuZAAAAAA0ceKs18b1lcqpaxLYsn5E4zW5VXn+cCxL40c1SZmK+RYwRIPdTRUIdgPnjKm0kePbFdt9vX0yoGMd6Z1o5/3w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">23</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E551BCA1-DB8B-4B1F-85F1-43724EC2F8FA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AA3D3E88-B0D7-4BAB-B3D7-AFF89B001D14}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -291,7 +291,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Ayoub\Stage BI\base_donnée\Nouveau dossier\table geo.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\itil-\Desktop\Nouveau dossier\table geo.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -473,7 +473,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Ayoub\Stage BI\base_donnée\Nouveau dossier\table_box.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\itil-\Desktop\Nouveau dossier\table_box.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -610,7 +610,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=BoxTv_DW_OPUS2;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=BoxTv_DW_OPUS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -625,7 +625,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">BoxTv_DW_OPUS2</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">BoxTv_DW_OPUS</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
